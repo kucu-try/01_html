@@ -1,0 +1,87 @@
+고객: 박지호 
+
+1. 어두운 계열 색 (잼)
+2. 짠거 싫어한다. 상큼한거
+3. 티스푼 4번 양으로 가운데 부위 위주로 얕게 펴바른다.
+4. 딱딱한거 싫어함. 부드러움을 좋아한다. 30초
+5. 빵 모서리 남기고
+6. 반 정도 빵 크기 잘라서(가로)
+
+일의 순서
+
+1. 빵의 봉지를 연다.
+2. 토스트기에 전기를 연결한다.
+3.맨 위에 있는 빵을 꺼낸다.
+4. 토스트기를 연다.
+5. 빵을 토스트기에 틀에 맞게 넣는다.
+6. 토스트기를 닫는다.
+7.토스트기를 작동시킨다.
+8. 30초 후 토스트기를 연다.
+9. 빵을 티스푼으로 찍는다.
+10. 티스푼으로 빵을 꺼낸다.
+11. 접시에 빵을 내려놓는다.
+12. 10초 후 빵을 가로로 접고 선을 따라 손으로 뜯는다.
+13. 한쪽 빵을 무작위로 버린다.
+14. 접시에 남은 빵을 놓는다.
+15. 사과 잼의 뚜껑을 잡고 열릴 때까지 돌린다.
+16. 사과 잼의 뚜껑을 빈 공간에 던진다.
+17. 티스푼으로 잼을 4번 퍼서 빵 한 쪽 면의 중심부로 옮긴다.
+18. 중심부에 있는 잼을 티스푼으로 한 쪽 면에만 얕게 펴바른다.
+19. 잼이 닿지 않게 빵을 손으로 집어 박지호 고객에게 준다.
+
+
+010-3293-8180 이상우
+--------------------------------------------------------
+
+
+git add [파일명]
+git 에서 관리할 수 있도록 파일을 추가
+
+git commit -m "설명"
+git 에서 관리중인 파일을 하나의 묶음으로 만들고 설명을 더함
+
+git push -u origin main
+git에 연결된 원격 저장소의 main 브랜치로 파일을 전송
+
+git clone https:// github.com/Leerilla/01-html.git
+최초로 git에 있는 파일을 내려 받는다.
+
+git pull orign main
+연결되어 있는 레파지 토리에서 main 브랜치의 현재 상태를 가지고 온다.
+
+
+
+
+
+C:\dev\01_html>git init
+Initialized empty Git repository in C:/dev/01_html/.git/
+
+C:\dev\01_html>git add ./
+
+C:\dev\01_html>git commit -m "first commit"
+[master (root-commit) 2be3e12] first commit
+ 2 files changed, 27 insertions(+)
+ create mode 100644 index.html
+ create mode 100644 "\353\217\274\354\247\2001.jpg"
+
+C:\dev\01_html>git branch -m main
+
+C:\dev\01_html>git branch
+* main
+
+C:\dev\01_html>git remote add origin https://github.com/kucu-try/01_html.git
+
+C:\dev\01_html>git push -u origin main
+info: please complete authentication in your browser...
+
+
+
+
+
+
+
+
+
+
+
+
