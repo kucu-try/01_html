@@ -6,14 +6,54 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>자주가는 사이트</h1>
+    <h1>KUCU HOMEPAGE</h1>
     <img src="./space.jpg" alt="이미지">
-    <hr>
+    <hr>   
+        <fieldset> 
+            <legend>로그인</legend>
+            <form action="login.jsp" method="post">
+                아이디 : <input type="text" name="id"><br>
+                비밀번호 : <input type="password" name="pass"><br><br>
+                <input type="submit" value="로그인">
+                <input type="button" value="회원가입" onclick="location.href='move.jsp';">
 
+            </form>
+        </fieldset>
+
+
+
+    <hr>
     <ul>
-        <li><a href="https://comic.naver.com/webtoon">네이버 웹툰</a></li>
-        <li><a href="https://www.youtube.com/">유튜브</a></li>
-       
+        <details>
+            <summary>자주가는 사이트</summary>
+            <span>
+                <button><a href="https://comic.naver.com/webtoon">네이버 웹툰</a></button>
+                <button><a href="https://www.youtube.com/?app=desktop">유튜브</a></button>  
+            </span>
+        </details>
     </ul>
+    <hr>
+    <h2>심리 테스트</h2>
+    <ul>
+        <label for="onepiece">밀짚모자 해적단 중 가장 좋아하는 캐릭터는?</label>
+        <input type="text" list="onepiece-options"/>
+
+        <datalist id="onepiece-options">
+            <option value1="몽키.D 루피"></option>
+            <option value="나미"></option>
+            <option value="롤로노아 조로"></option>
+            <option value="상디"></option>
+            <option value="쵸파"></option>
+            <option value="우솝"></option>
+            <option value="로빈"></option>
+            <option value="프랑키"></option>
+            <option value="징베"></option>
+        </datalist>
+        
+        
+        
+
+    </ul>
+    
 </body>
 </html>
