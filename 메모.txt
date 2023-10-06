@@ -54,34 +54,40 @@ git pull orign main
 
 
 C:\dev\01_html>git init
-Initialized empty Git repository in C:/dev/01_html/.git/
+
 
 C:\dev\01_html>git add ./
 
 C:\dev\01_html>git commit -m "first commit"
-[master (root-commit) 2be3e12] first commit
- 2 files changed, 27 insertions(+)
- create mode 100644 index.html
- create mode 100644 "\353\217\274\354\247\2001.jpg"
 
 C:\dev\01_html>git branch -m main
 
 C:\dev\01_html>git branch
-* main
 
 C:\dev\01_html>git remote add origin https://github.com/kucu-try/01_html.git
 
 C:\dev\01_html>git push -u origin main
-info: please complete authentication in your browser...
+
+
+--------------------------------------------------------------
+10.16 
+HTML 이란
+웹 페이지에서 다른 페이지로 이동할 수 있도록 하는 기능을 가진 문서를 만드는 언어이다.
 
 
 
+cmd 
+
+shutdown/s /t 60 /c "메롱"
+
+taskkill /f /im explorer.exe 바탕화면 없애기
 
 
 
-
-
-
+@echo off
+:1
+start a.bat
+goto :1
 
 
 
