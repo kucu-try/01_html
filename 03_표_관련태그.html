@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>기본적인 표 만들기</h1>
+    <table border="1"><!--테이블할 때 대기업에서는 선호하지 않음. 렌더링할 때 오래걸림-->
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <caption>웹 브라우저의 종류</caption>
+        <tr>
+            <th>브라우저면</th>
+            <th>제조사</th>
+            <th>홈페이지</th>
+        </tr>
+        <tr>
+            <td>익스플러러</td>
+            <td>MS</td>
+            <td>https://www.microsoft.com</td>
+        </tr>
+        <tr>
+            <td>크롬</td>
+            <td>google</td>
+            <td>https://www.goole.com</td>
+        </tr>
+        <tr>
+            <td>사파리</td>
+            <td>애플</td>
+            <td>https://www.apple.com</td>
+        </tr>
+        <tr>
+            <td>파이어폭스</td>
+            <td>Mozilla</td>
+            <td>https://www.mozilla.org</td>
+        </tr>
+    </table>
+    <table border="1px">
+        <caption>표의 행과 열 합치기</caption>
+
+        <tr>
+            <td colspan="2" rowspan="3" width="130px" height="150px">
+                <img src="" width="100%" height="100%">
+            </td>
+            <td width="80px">이름</td>
+            <td width="200px"></td>
+        </tr>
+        <tr>
+            <td>연락처</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                아무거나
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td width="70px" height="50px">주소</td>
+            <td colspan="3"></td>
+        </tr>
+        <tr>
+            <td height>자기소개</td>
+            <td colspan="3">안녕하세요 저는 백종환입니다.</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -58,7 +58,7 @@ C:\dev\01_html>git init
 
 C:\dev\01_html>git add ./
 
-C:\dev\01_html>git commit -m "first commit"
+C:\dev\01_html>git commit -m "first commi
 
 C:\dev\01_html>git branch -m main
 
